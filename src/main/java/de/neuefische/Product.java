@@ -1,5 +1,5 @@
 package de.neuefische;
 
-public record Product(String name, String id, Double price, boolean isAvailable) {
+public record Product(String productName, String id, double price, boolean isAvailable) {
 
 }
