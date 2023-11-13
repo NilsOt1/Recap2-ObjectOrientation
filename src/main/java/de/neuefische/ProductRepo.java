@@ -27,7 +27,7 @@ public class ProductRepo {
                 '}';
     }
 
-    public void addProduct(Product product, int productKey) {
+    public void addProduct(int productKey, Product product) {
         productMap.put(productKey, product);
     }
 
